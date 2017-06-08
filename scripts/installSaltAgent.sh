@@ -3,9 +3,9 @@ echo "deb http://repo.saltstack.com/apt/ubuntu/14.04/amd64/latest trusty main" >
 
 sudo apt-get -y update
 
-apt-get install -y salt-minion
+sudo apt-get install -y --force-yes salt-minion
 sudo cp /vagrant/conf/minion /etc/salt
 sudo cp /vagrant/conf/_schedule.conf /etc/salt/minion.d
 echo "192.168.17.80 salt" >> /etc/hosts
 
-service salt-minion restart
+sudo service salt-minion restart
