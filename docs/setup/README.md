@@ -1,3 +1,6 @@
+# [Go back home](../../)
+
+#
 A simple multi Vagrant box setup to play around with Saltstack. You need working Vagrant on your machine to use this demo.
 
 Before you run Vagrant up - change following parameters in Vagrantfile as per your need/taste:
