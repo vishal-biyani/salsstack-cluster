@@ -1,8 +1,8 @@
 [Go back home](https://github.com/vishal-biyani/saltstack-cluster)
 
-| Next |
-|---|
-|[Grains](../grains)|
+|Previous       | Next              |
+|---------------|-------------------|
+|[Home](../../) |[Grains](../grains)|
 
 # Setup
 
@@ -125,3 +125,7 @@ In essense what we are doing in above statement is checking if all nodes are rea
 ```test.ping```: We are calling the ping method on test module here. Salt has many kinds of modules and test is an execution module. There can be state modules for executing states, grains modules related to grains and so on. But overall the structure is same - module_name.method_name and what happens depends on module implementation.
 
 Finally we used the Salt CLI for first time from master and executed a simple command. We will be use a lot of the CLI from master as well as minion (From minion you have to call salt-call) eventually but this is a good start
+
+|Previous       | Next              |
+|---------------|-------------------|
+|[Home](../../) |[Grains](../grains)|
