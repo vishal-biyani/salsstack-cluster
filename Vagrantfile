@@ -35,7 +35,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 			sagent.vm.provider :virtualbox do |vba|
 				vba.customize ["modifyvm", :id, "--memory", AGENT_MEMORY]
 			end
-			sagent.vm.provision "shell", path: "scripts/installSaltAgent.sh"
+			sagent.vm.provision "shell" do |ss|
+			    ss.path = "scripts/installSaltAgent.sh"
+			    ss.args = ["#{i}.#{DOMAIN_NAME}"]
+			end
 		end
 	end	
 end
