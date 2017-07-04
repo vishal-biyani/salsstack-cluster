@@ -2,7 +2,7 @@
 
 |Previous       | Next              |
 |---------------|-------------------|
-|[Home](../../) |[Grains](../grains)|
+|[Home](https://github.com/vishal-biyani/saltstack-cluster) |[Grains](../grains)|
 
 # Setup
 
@@ -128,4 +128,4 @@ Finally we used the Salt CLI for first time from master and executed a simple co
 
 |Previous       | Next              |
 |---------------|-------------------|
-|[Home](../../) |[Grains](../grains)|
+|[Home](https://github.com/vishal-biyani/saltstack-cluster) |[Grains](../grains)|
