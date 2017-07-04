@@ -1,8 +1,8 @@
 ## [Go back home](https://github.com/vishal-biyani/saltstack-cluster)
 
-|Previous         | Next              |
-|-----------------|-------------------|
-|[Home](../setup) |[Grains](../grains)|
+|Previous          | Next              |
+|------------------|-------------------|
+|[Setup](../setup) |[Grains](../grains)|
 
 # Targetting
 
@@ -95,6 +95,6 @@ smaster.learn.com:
 TBD
 
 
-|Previous         | Next              |
-|-----------------|-------------------|
-|[Home](../setup) |[Grains](../grains)|
+|Previous          | Next              |
+|------------------|-------------------|
+|[Setup](../setup) |[Grains](../grains)|
