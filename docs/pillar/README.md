@@ -1,8 +1,7 @@
-[Home](http://vishal-biyani.github.io/saltstack-cluster)
 
-|Previous          | Next                                      |
-|------------------|-------------------------------------------|
-|[YAML](../yaml)   |[Directory Structure](../dir_structure)    |
+|Home          |Previous          | Next                                      |
+|--------------|------------------|-------------------------------------------|
+|[Home](../../)|[YAML](../yaml)   |[Directory Structure](../dir_structure)    |
 
 
 # Pillar
@@ -25,6 +24,6 @@ Change pillar value, refresh and validate new value
 
 
 
-|Previous          | Next                                      |
-|------------------|-------------------------------------------|
-|[YAML](../yaml)   |[Directory Structure](../dir_structure)    |
+|Home          |Previous          | Next                                      |
+|--------------|------------------|-------------------------------------------|
+|[Home](../../)|[YAML](../yaml)   |[Directory Structure](../dir_structure)    |
