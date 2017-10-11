@@ -36,7 +36,7 @@ redis:
 
 ## Assign
 
-The pillar data is exposed to the nodes that need it. This way the data is available only on a need basis and also is much more managable. To enable this 
+The pillar data should be exposed to the nodes that need it. This way the data is available only on to nodes that need it and also is much more managable. To achieve this, we can use role based grain filter and only expose the desired pillar data to a set of nodes. For example:
 
 ```
   'G@roles:redis':
